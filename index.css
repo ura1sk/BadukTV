@@ -1,0 +1,30 @@
+
+/* BadukTV Theme for OGS */
+
+body {
+    background: #1b1b1b !important;
+}
+
+.navbar,
+.NavBar {
+    background: #101010 !important;
+}
+
+.goban,
+.Goban {
+    filter: contrast(1.1) saturate(1.1);
+}
+
+.stone.black {
+    box-shadow: 0 0 12px rgba(0,0,0,.7);
+}
+
+.stone.white {
+    box-shadow: 0 0 8px rgba(255,255,255,.35);
+}
+
+.chat-container,
+.Chat {
+    background: #161616 !important;
+    color: #dddddd !important;
+}
